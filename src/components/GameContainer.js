@@ -133,13 +133,13 @@ class GameContainer extends Component {
             width: ${this.state.columns * 75 + "px"};
             height: ${this.state.rows * 75 + "px"};
             max-width: 90vw;
+            max-height: 80vh;
 
             @media screen and (min-width: 768px) and (orientation: portrait),
               (min-width: 813px) {
               width: ${this.state.columns * 110 + "px"};
               height: ${this.state.rows * 110 + "px"};
               max-width: 80vw;
-              max-height: 80vh;
             }
           `}
         >
