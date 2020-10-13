@@ -6,8 +6,8 @@ class GameContainer extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      columns: 10,
-      rows: 10,
+      columns: 5,
+      rows: 5,
       originalList: [],
       bricks: [],
       isWinner: false,
